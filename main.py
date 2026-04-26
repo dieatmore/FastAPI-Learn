@@ -13,7 +13,7 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 # 1. 创建异步引擎
 ASYNC_DATABASE_URL = (
-    "mysql+aiomysql://root:wsd03160226@localhost:13307/fastapi_learn?charset=utf8mb4"
+    "mysql+aiomysql://root:????@localhost:13307/fastapi_learn?charset=utf8mb4"
 )
 async_engine = create_async_engine(
     ASYNC_DATABASE_URL,
